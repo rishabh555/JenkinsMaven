@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39250" started-at="2020-07-03T09:13:51 IST" finished-at="2020-07-03T09:14:30 IST">
+  <suite name="Default suite" duration-ms="57107" started-at="2020-07-05T04:33:33 IST" finished-at="2020-07-05T04:34:30 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39250" started-at="2020-07-03T09:13:51 IST" finished-at="2020-07-03T09:14:30 IST">
+    <test name="Default test" duration-ms="57107" started-at="2020-07-05T04:33:33 IST" finished-at="2020-07-05T04:34:30 IST">
       <class name="com.actitime.testscript.CustomerTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="openBrowser" is-config="true" duration-ms="6438" started-at="2020-07-03T09:13:51 IST" finished-at="2020-07-03T09:13:57 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="openBrowser" is-config="true" duration-ms="18370" started-at="2020-07-05T04:33:33 IST" finished-at="2020-07-05T04:33:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="loginApp" is-config="true" duration-ms="9275" started-at="2020-07-03T09:13:57 IST" finished-at="2020-07-03T09:14:07 IST">
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="loginApp" is-config="true" duration-ms="13576" started-at="2020-07-05T04:33:51 IST" finished-at="2020-07-05T04:34:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="testCreateCustomer()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="testCreateCustomer" duration-ms="17363" started-at="2020-07-03T09:14:07 IST" finished-at="2020-07-03T09:14:24 IST">
+        <test-method status="PASS" signature="testCreateCustomer()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="testCreateCustomer" duration-ms="17202" started-at="2020-07-05T04:34:05 IST" finished-at="2020-07-05T04:34:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCustomer -->
-        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="logoutApp" is-config="true" duration-ms="5819" started-at="2020-07-03T09:14:24 IST" finished-at="2020-07-03T09:14:30 IST">
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="logoutApp" is-config="true" duration-ms="6135" started-at="2020-07-05T04:34:22 IST" finished-at="2020-07-05T04:34:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="closeBrowser" is-config="true" duration-ms="259" started-at="2020-07-03T09:14:30 IST" finished-at="2020-07-03T09:14:30 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerTest@1f7030a6]" name="closeBrowser" is-config="true" duration-ms="1625" started-at="2020-07-05T04:34:28 IST" finished-at="2020-07-05T04:34:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
