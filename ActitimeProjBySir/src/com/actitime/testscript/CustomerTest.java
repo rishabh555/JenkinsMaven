@@ -2,7 +2,7 @@ package com.actitime.testscript;
 
 import java.io.IOException;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import com.actitime.generics.BaseClass;
 import com.actitime.repository.HomePage;
@@ -15,8 +15,8 @@ public class CustomerTest extends BaseClass{
 	 */
 	@Test
 	public void testCreateCustomer() throws IOException {
-		String CustomerName = f.getExcelValue("CreateCustomer", 1, 0);
-		String CustomerDes = f.getExcelValue("CreateCustomer", 1, 1);
+		String CustomerName = f.getExcelValue("Create Customer", 1, 0);
+		String CustomerDes = f.getExcelValue("Create Customer", 1, 1);
 		HomePage h=new HomePage(driver);
 		//click on Task menu
 		h.getTaskMenu().click();
