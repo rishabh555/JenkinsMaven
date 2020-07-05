@@ -19,6 +19,7 @@ public class LoginPage {
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
+	
 	//Business logic method
 	public void setLogin(String un,String pw) {
 		UNTBX.sendKeys(un);
